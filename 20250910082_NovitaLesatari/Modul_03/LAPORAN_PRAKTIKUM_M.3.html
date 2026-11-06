@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORAN PRAKTIKUM MODUL 3</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<p>
+    <h1>
+        <center>LAPORAN PRAKTIKUM MODUL 3</center>
+    </h1>
+    <p>
+        <center>Dosen Pengampu: Dede Irawan, M.Kom</center>
+    </p>
+    <hr>
+    <p><center>Nama: Novita Lesatari</center></p>
+    <p><center>NIM: 20250910082</center></p>
+    <p><center>Kelas: SINFC 2025 03</center></p>
+    <hr>
+    <h2>A. Pre-Test</h2>
+
+    <h3>1. Jelaskan keudukan CSS dalam pemrograman web.</h3>
+    <p>
+        CSS (Cascading Style Sheets) memiliki kedudukan sebagai bahasa yang mengatur tampilan atau presentasi halaman web. 
+        Dalam pemrograman web, terdapat tiga bahasa utama dengan tugas yang berbeda. 
+        HTML berfungsi menyusun struktur dan isi halaman seperti judul, paragraf, tabel, dan gambar. 
+        CSS berfungsi mengatur tampilan dan tata letak seperti warna, jenis huruf, ukuran, jarak, dan posisi elemen. 
+        Sementara itu, JavaScript berfungsi mengatur perilaku dan interaksi pada halaman. 
+        Dengan demikian, HTML menentukan apa yang ditampilkan, sedangkan CSS menentukan bagaimana isi tersebut ditampilkan. 
+        Pemisahan antara struktur dan tampilan ini membuat kode lebih rapi dan mudah dikelola, karena satu file CSS dapat digunakan oleh banyak halaman sekaligus, dan perubahan tampilan cukup dilakukan di satu tempat tanpa mengubah isi HTML.
+    </p>
+    <h3>2. Berikan masing-masing satu contoh penggunaan css selektor</h3>
+    <ul>
+        <li>Selektor elemen (Tag) : Digunakan untuk memilih elemen Memilih semua elemen dengan nama tag  HTML.
+            <p> Contoh :  </p>
+                <p> h1 {color: blue;}  </p>
+                    
+        </li>
+        <li>Selektor Class: Digunakan untuk memilih elemen yang punya class tertentu, ditulis dengan titik.</li>
+            <p>Contoh :</p>
+                <p> .info { background-color: gray; } 
+        <li>Selektor ID: Digunakan untuk memilih satu elemen berdasarkan ID tertentu, di tulis dengan tanda pagar.</li>
+            <p>Contoh :</p>
+                <p> #judul { text-align: center; }</p>
+        <li>Selektor universal: Digunakan untuk memilih semua elemen di halaman, ditulis dengan bintang (*).</li>
+            <p>Contoh :</p>
+                <p> * { margin: 0; padding: 0; }</p>
+        <li>Selektor grup: Digunakan untuk memilih beberapa elemen sekaligus, dipisahkan dengan koma.</li>
+            <p>Contoh :</p>
+                <p> h1, h2, h3 { color: blue; }</p>
+
+    </ul>
+<hr>
+    <h2>B. Post-Test</h2>
+    <h3>1. Buat masing-masing satu contoh program untuk mengimplementasikan cara menulis CSS!</h3>
+        <p>Ada 3 cara penulisan CSS, yaitu:</p>
+    <ul>
+        <li> Inline CSS : CSS ditulis langsung di dalam tag HTML memakai atribut style </li>
+        <p> HTML</p>
+        <pre> < !DOCTYPE html >
+        < html lang="id" >
+        < head >
+        < meta charset="UTF-8" >
+        < meta name="viewport" content="width=device-width, initial-scale=1.0">
+        < title> CSS Inline < / title>
+        <  /head > 
+        < body >
+        < h1 style="color: rgb(255, 0, 51); text-align: center;">
+        Biodata Diri
+    < /h1 >
+    < p style="color: red; font-size: 20px;">
+        Ini adalah biodata diri Novita Lestari.
+    < /p>
+    < /body>
+    < /html>
+    </pre>
+    <li> Internal CSS : CSS ditulis menggunakan tag < style> pada bagian < head> dalam file HTML yang sama</li>
+    <pre> < !DOCTYPE html >
+        < html lang="id" >
+        < title> Inline CSS < / title>
+        < style>
+        < p
+            fontfamily: Arial, sans-serif; 
+            color: blue;
+            text-align: center;
+        
+        < /style>
+        </pre>    
+    <li> Eksternal CSS: Ditulis pada file terpisah dengan ekstensi .css, kemudian dihubungkan ke file HTML menggunakan tag < link> </li>
+    <pre> < !DOCTYPE html >
+        < html>
+        < head >
+        < title> Eksternal CSS < / title>
+        < link rel="stylesheet" href="stylesheeet.css">
+        <  /head > 
+        < body >
+        < h1> Belajar Eksternal CSS < /h1>
+        < p> ini adalah contoh Eksternal CSS < /p> 
+        < /body>
+        < /html>
+    </pre>
+    <li> File style.css</li>
+    <pre> 
+        body {
+          background-color: pink;
+        }
+          h1 {
+          color: blue;
+          text-align: center;
+          }
+        p {
+        font-family: Arial;
+        color: gray;
+
+    </pre>
+</ul>
+<hr>
+<h2>C. Latihan/Tugas</h2>
+<h3>1. Tambahkan kode css pada tugas pada modul 1</h3>
+        Proyek: Landing Page<br>
+        Repository: <a href="https://github.com/20250910065-max/pweb3.git">https://github.com/20250910065-max/pweb3.git</a><br>
+        Situs (GitHub Pages): <a href="https://20250910065-max.github.io/pweb3/landing_page.html">https://20250910065-max.github.io/pweb3/landing_page.html</a>
+    <p>Perintah yang dijalankan:</p>
+<pre>git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/20250910065-max/pweb3.git
+git push -u origin main</pre>
+    <div class="ss an biodata nop 1"><img src="ss an biodata nop 1.png" width="800"></div>
+<div class="ss an biodata nop 2"><img src="ss an biodata nop 2.png" width="800"></div>
+
+    <h3>2. Simpan seluruh praktikum pada modul sebelumnya kedalam repository Git yang 
+sudah anda buat</h3>
+        Repository: <a href="https://github.com/20250910065-max/Praktikum_WEB.git">https://github.com/20250910065-max/Praktikum_WEB.git</a><br>
+    <p>Perintah yang dijalankan:</p>
+<pre>git init
+git add .
+git commit -m "Menyimpan praktikum moodul 1 sampai 3"
+git branch -M main
+git remote add origin https://github.com/20250910065-max/Praktikum_WEB.git
+git push -u origin main --force </pre>
+    <div class="screenshot"><img src="Screenshot (74).png" width="700"></div>
+</body>
+</html>
