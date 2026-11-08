@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #dfe9f3;
+  border-bottom: 2px solid #333333;
+}
+
+.img-header {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+.menu {
+  background-color: #4a6fa5;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid #333333;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+
+.baner {
+  background-color: #f7f1e3;
+  padding: 20px 15px;
+  border-bottom: 2px solid #333333;
+  overflow: hidden;
+}
+
+.img-baner {
+  float: left;
+  width: 120px;
+  height: 180px;
+  border: 2px solid #333333;
+  margin-right: 20px;
+}
+
+.teks-baner h2 {
+  margin-top: 45px;
+}
+
+.konten {
+  float: left;
+  width: 69%;
+  border-right: 2px solid #333333;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+}
+
+.kotak {
+  padding: 15px;
+  border-bottom: 2px solid #333333;
+}
+
+.kotak h3 {
+  text-decoration: underline;
+}
+
+.kotak p {
+  font-size: 14px;
+}
+
+.tabel-jadwal {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tabel-jadwal th,
+.tabel-jadwal td {
+  border: 1px solid #333333;
+  padding: 6px;
+  text-align: left;
+}
+
+.tabel-jadwal th {
+  background-color: #4a6fa5;
+  color: white;
+}
+
+
+.kotak ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kotak li {
+  margin-bottom: 6px;
+}
+
+.kotak a {
+  color: #1a3c6e;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.kotak a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  clear: both;
+  border-top: 2px solid #333333; 
+  background-color: #dfe9f3;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
